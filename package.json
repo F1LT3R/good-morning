@@ -1,0 +1,23 @@
+{
+  "name": "good-morning",
+  "bin": {
+    "good-morning": "index.js"
+  },
+  "version": "0.0.1",
+  "description": "a HUD for the kitchen to make your morning more pleasant",
+  "main": "index.js",
+  "author": "Alistair MacDonald <al@pwn.io>",
+  "email": "al@pwn.io",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "connect": "^3.3.3",
+    "jsdom": "^1.4.1",
+    "request": "^2.49.0",
+    "serve-static": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/f1lt3r/good-morning.git"
+  }
+}
